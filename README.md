@@ -1,2 +1,2 @@
-# maicaquijano.github.io
-My Personal Website
+# maicaquijano
+ My Personal Website

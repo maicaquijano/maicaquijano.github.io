@@ -1,0 +1,674 @@
+/* General CSS*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background: rgb(116, 116, 116);
+    color: rgb(253, 253, 253);
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Links */
+
+a {
+    text-decoration: none !important;
+    color: rgb(255, 250, 250);
+    transition: all 0.5s ease-out;
+}
+
+a:hover {
+    color: #c4c407 !important;
+}
+
+/* Navbar */
+
+.navbar {
+    position: relative;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-dark .navbar-toggler:focus {
+    color: rgb(253, 207, 3);
+    box-shadow: 0 0 0 2px;
+}
+
+.navbar ul li {
+    position: relative;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600px;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffffe, #929291);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #c7c7b1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-header h3 {
+    text-align: center;
+}
+
+.student-profile .card h3 {
+    text-align: center;
+}
+
+.card-header img {
+    padding-right: 12px;
+}
+
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+/*  Carousel
+*/
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+h5 {
+    text-indent: 50px;
+    letter-spacing: 6px;
+    font-family: "serif", georgia;
+    color: #fff;
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    background-color: rgba(77, 77, 77, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner .carousel-caption span {
+    color: rgb(43, 41, 41);
+    text-align: center;
+}
+
+
+.carousel-inner .carousel-caption h5 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 42px;
+    margin: 0px auto 30pc auto; 
+    text-align: center;
+
+}
+
+.carousel-inner .carousel-caption h5 {
+    color: rgb(255, 241, 241); 
+    text-align: center;
+
+}
+
+.banner-section .banner desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.banner-section .banner-btn {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e3fc02;
+}
+
+/* About Section */
+
+.about-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title {
+    position: relative;
+    margin: 15px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 80px;
+    text-transform: capitalize;
+    color: rgb(12, 12, 12);
+}
+
+.about-section .about-desc {
+    position: initial;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(48, 47, 47);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 2px 16px;
+    color: rgb(226, 241, 16);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/* Skills */
+
+.skills-section {
+     position: relative;
+     padding-top: 3rem;
+     padding-bottom:3rem;
+}
+
+.skills-section .skills-title {
+    position: relative;
+    padding-bottom:2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight:400;
+    letter-spacing:1px;
+    text-align:center;
+    text-transform:capitalize;
+    color: #000;
+}
+
+.skills-section .card {
+    position:relative;
+    margin-bottom: 3rem;
+    padding:3rem;
+    border:none;
+    border-radius:0.25rem;
+    background: #f2f2f2;
+    box-shadow: 0 0.5rem 1rem rgba(8, 8, 8, 0.15);
+}
+
+.skills-section img {
+    position: relative;
+    border-radius: 50%;
+}
+
+.skills-section  .test-desc {
+    position: relative;
+    padding-top: 1.5rem;
+    font-size:22px;
+    font-weight:500;   
+}
+
+.skills-section .test-name {
+    position:relative;
+    font-size:16px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color: #a5a7a7;
+}
+
+/* Projects */
+
+.video {
+    width: 100%;  
+     height: auto;
+}
+
+/* contact  style */ 
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%vh;
+}
+
+.conatiner {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:  100%;
+    height:100%;
+    padding: 20 px 100 px;
+}
+
+.container:after {
+    content: '';
+    position:absolute;
+    left: 0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:  url(/contacts/Contact\ me.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur (50px);
+}
+.contact-box{
+    max-width:850px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px  5px rgba (0,0, 0, 0.19);
+}
+.left {
+    height:100%;
+    background: url(/contacts/Contact\ me.jpg) no-repeat center;
+    background-size:cover;
+}
+ .right {
+    padding:25px    40px;
+ }
+
+ h2 {
+    position:relative;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    color:#fffffe;
+ }
+
+ .h2:after {
+    content:'';
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform: translateX (-50%);
+    height:4px;
+    width:50px;
+    border-radius:2px;
+    background-color: #2ecc71;
+ }
+ 
+ .field {
+    width: 100%;
+    padding:0.5rem 1rem;
+    outline: none;
+    border:2px solid rgba (0, 0, 0, 0,);
+    background-color: rgba (230,230,230,0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition:3s;
+ }
+
+    .field:hover{
+        background-color: rgba(0,0 ,0, 0.1);      
+}
+
+    .field:focus {
+        background-color:  #fff;
+        border:2px solid rgba(30, 85, 250, 0.47);
+}
+    .area {
+        min-height: 150px;
+
+ }
+    .btn {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        font-size:1.1 rem;
+        background-color: #20e7cd;
+        cursor: pointer;
+        outline: none;
+        border:none;
+}
+
+    .btn:hover{
+        background-color: #4dfcf3;
+}
+
+@media screen and (max-width:880px){
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+}     .left{
+            height:200px;
+}
+
+/* Footer Styles */
+footer, a {
+    color: #fff;
+}
+footer {
+    background: #1a1a1a;
+
+    float: left;
+    margin-top: 350px;
+    width: 100%;
+}
+
+footer div{
+    margin-top: 10px;
+
+    float: left;
+}
+
+#foot1{
+    width: 30%;
+    margin-left: 10px;
+}
+
+
+#foot1 label, input{
+   float: left;
+   margin-top: 20px;
+   width: 100%;
+   margin-top: 10px;
+}
+
+
+#botEmail{
+   height: 40px;
+   background-color: #00c8a3;
+   border-radius: 50px;
+   border-color: solid gray;
+   width: 50%;
+ }
+ 
+#email{
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: solid gray;
+  }
+
+  span{
+    float: left;
+  }
+
+#foot2{
+
+    width: 30%;
+    margin-left: 50px;
+}
+#foot3{
+
+    width: 30%;
+    
+}
+
+
+
+
+section.footer-1 .col {
+    vertical-align: top;
+}
+section.footer-1 .col ul li img {
+    width: 100px;
+    margin-top: 10px;
+}
+section.footer-1 .col ul li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-1 form {
+    width: 100%;
+    margin-top: 24px;
+}
+.footer-1 input[type="button"] {
+    margin-top: 0;
+    font-size: 11px;
+    padding: 15px 21px;
+    letter-spacing: 3px;
+}
+.social-media-icon {
+    margin-top: 15px;
+}
+.social-media-icon a {
+    font-size: 45px;
+}
+.social-media-icon a:hover {
+    color: #00c8a3;
+}
+.footer-1 input#email {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+footer h3 {
+    line-height: 25px;
+}
+span.copyright {
+    margin-top: 20px;
+}
+
+/* footer */
+
+
+.footer {
+    position: relative;
+    padding-top: 50px;
+    background: #444343;
+}
+
+.footer .social-media .footer-list {
+    position: relative;
+    margin: 0 0 20px 0;
+    display: inline-block;
+}
+
+.footer .social-media .footer-list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer .social-media .footer-list li a {
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: #f8f3f3;
+
+}
+
+.container {
+    position: relative;
+    max-width: 900px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+}
+
+.container .content {
+    position: absolute;
+    /* Position the background text */
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.0);
+    /* Black background with 0.5 opacity */
+    color: #f5dc00;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 70px;
+    /* Some padding */
+}
+
+
+
+
+
+
+
+
